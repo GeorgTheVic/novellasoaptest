@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Novella — мыло и масла</title>
+  <link rel="preload" href="fonts/RalewayRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RalewayMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html" class="header__link">
+          <picture>
+            <source srcset="img/logo.avif" type="image/avif">
+            <source srcset="img/logo.webp" type="image/webp">
+            <img loading="lazy" src="img/logo.png" class="image" width="100" height="100" alt="Логотип">
+          </picture>
+        </a>
+      </div>
+      <div class="header__nav">
+        <nav class="nav" title="Навигация" data-menu>
+          <ul class="list-reset nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link" data-menu-item>Главная</a></li>
+            <li class="nav__item"><a href="about.html" class="nav__link" data-menu-item>О нас</a></li>
+            <li class="nav__item"><a href="payment.html" class="nav__link" data-menu-item>Оплата и доставка</a></li>
+            <li class="nav__item"><a href="order.html" class="nav__link" data-menu-item>Как заказать?</a></li>
+            <li class="nav__item"><a href="contacts.html" class="nav__link" data-menu-item>Контакты</a></li>
+          </ul>
+          <button class="btn-reset burger-close" aria-label="Закрыть меню" data-menu-close>
+            <img loading="lazy" src="img/svg/close.svg" class="image" width="44" height="44" alt="Close">
+          </button>
+        </nav>
+      </div>
+      <button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+  </div>
+</header>
+    <main class="main">
+      <section class="intro">
+  <div class="container">
+    <div class="intro__inner">
+      <div class="intro__left">
+        <h1 class="title intro__title">
+          Изделия из мыла ручной работы
+        </h1>
+
+        <p class="intro__text">
+          Novella — это мастерская товаров
+          для радости. У нас представлены
+          мыла и скрабы разных видов и форм
+        </p>
+
+        <a href="#products" class="inrto__link">
+          <button class="btn-reset btn intro__btn" data-graph-path="">
+            Посмотреть каталог
+          </button>
+        </a>
+      </div>
+
+      <div class="intro__right">
+        <picture>
+          <source srcset="img/intro/circle.avif" type="image/avif">
+          <source srcset="img/intro/circle.webp" type="image/webp">
+          <img loading="lazy" src="img/intro/circle.png" class="intro__circle" width="409" height="409"
+            alt="Круглый фон">
+        </picture>
+        <picture>
+          <source srcset="img/intro/chocolate.avif" type="image/avif">
+          <source srcset="img/intro/chocolate.webp" type="image/webp">
+          <img loading="lazy" src="img/intro/chocolate.png" class="intro__chocolate" width="200" height="200"
+            alt="Шоколад">
+        </picture>
+        <picture>
+          <source srcset="img/intro/bouquet.avif" type="image/avif">
+          <source srcset="img/intro/bouquet.webp" type="image/webp">
+          <img loading="lazy" src="img/intro/bouquet.png" class="intro__bouquet" width="300" height="300" alt="Букет">
+        </picture>
+        <picture>
+          <source srcset="img/intro/hares.avif" type="image/avif">
+          <source srcset="img/intro/hares.webp" type="image/webp">
+          <img loading="lazy" src="img/intro/hares.png" class="intro__hares" width="200" height="200" alt="Зайчики">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="bubbles">
+  <div class="container">
+    <div class="bubbles__row">
+      <picture>
+        <source srcset="img/bubbles.avif" type="image/avif">
+        <source srcset="img/bubbles.webp" type="image/webp">
+        <img loading="lazy" src="img/bubbles.png" class="bubbles__img" width="55" height="55" alt="Пузырики">
+      </picture>
+      <p class="bubbles__text">Все работы выполнены из мыльной основы высокого качества</p>
+    </div>
+    <div class="bubbles__row">
+      <picture>
+        <source srcset="img/bubbles.avif" type="image/avif">
+        <source srcset="img/bubbles.webp" type="image/webp">
+        <img loading="lazy" src="img/bubbles.png" class="bubbles__img" width="55" height="55" alt="Пузырики">
+      </picture>
+      <p class="bubbles__text">В составе натуральные масла, красители и ароматизаторы,<br /> которые Вы можете выбрать
+        самостоятельно</p>
+    </div>
+    <div class="bubbles__row">
+      <picture>
+        <source srcset="img/bubbles.avif" type="image/avif">
+        <source srcset="img/bubbles.webp" type="image/webp">
+        <img loading="lazy" src="img/bubbles.png" class="bubbles__img" width="55" height="55" alt="Пузырики">
+      </picture>
+      <p class="bubbles__text">Каждый заказ обсуждается индивидуально. Мы выполним<br /> любые Ваши пожелания</p>
+    </div>
+  </div>
+</section>
+      <section class="products" id="products">
+  <div class="container-fluid products__container-fluid">
+
+    <div class="container">
+      <h1 class="title products__title">
+        Товары
+      </h1>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+              <h3 class="card__title">
+                Новогодние наборы
+              </h3>
+
+              <picture>
+                <source srcset="img/new_year/new_year.avif" type="image/avif">
+                <source srcset="img/new_year/new_year.webp" type="image/webp">
+                <img loading="lazy" src="img/new_year/new_year.png" class="card__img" width="248" height="240"
+                  alt="Новогодний набор">
+              </picture>
+
+              <a href="https://www.instagram.com/_novella_soap/" target="_blank" class="card__link">
+                <button class="btn-reset btn card__btn" data-graph-path="">
+                  Смотрерть в Instagram
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <h3 class="card__title">
+                Кусковое мыло
+              </h3>
+
+              <picture>
+                <source srcset="img/soaps/soap.avif" type="image/avif">
+                <source srcset="img/soaps/soap.webp" type="image/webp">
+                <img loading="lazy" src="img/soaps/soap.jpg" class="card__img" width="248" height="240" alt="Мыло">
+              </picture>
+
+              <a href="https://www.instagram.com/_novella_soap/" target="_blank" class="card__link">
+                <button class="btn-reset btn card__btn" data-graph-path="">
+                  Смотрерть в Instagram
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <h3 class="card__title">
+                Наборы
+              </h3>
+
+              <picture>
+                <source srcset="img/sets/set.avif" type="image/avif">
+                <source srcset="img/sets/set.webp" type="image/webp">
+                <img loading="lazy" src="img/sets/set.jpg" class="card__img" width="248" height="240" alt="Наборы">
+              </picture>
+
+              <a href="https://www.instagram.com/_novella_soap/" target="_blank" class="card__link">
+                <button class="btn-reset btn card__btn" data-graph-path="">
+                  Смотрерть в Instagram
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <h3 class="card__title">
+                Игрушки
+              </h3>
+
+              <picture>
+                <source srcset="img/dolls/dolls.avif" type="image/avif">
+                <source srcset="img/dolls/dolls.webp" type="image/webp">
+                <img loading="lazy" src="img/dolls/dolls.jpg" class="card__img" width="248" height="240" alt="Игрушки">
+              </picture>
+
+              <a href="https://www.instagram.com/_novella_soap/" target="_blank" class="card__link">
+                <button class="btn-reset btn card__btn" data-graph-path="">
+                  Смотрерть в Instagram
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <h3 class="card__title">
+                Скрабы
+              </h3>
+
+              <picture>
+                <source srcset="img/scrubs/scrubs.avif" type="image/avif">
+                <source srcset="img/scrubs/scrubs.webp" type="image/webp">
+                <img loading="lazy" src="img/scrubs/scrubs.jpg" class="card__img" width="248" height="240" alt="Скрабы">
+              </picture>
+
+              <a href="https://www.instagram.com/_novella_soap/" target="_blank" class="card__link">
+                <button class="btn-reset btn card__btn" data-graph-path="">
+                  Смотрерть в Instagram
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <h3 class="card__title">
+                Масла
+              </h3>
+
+              <picture>
+                <source srcset="img/oils/oils.avif" type="image/avif">
+                <source srcset="img/oils/oils.webp" type="image/webp">
+                <img loading="lazy" src="img/oils/oils.jpg" class="card__img" width="248" height="240" alt="Масла">
+              </picture>
+
+              <a href="https://www.instagram.com/_novella_soap/" target="_blank" class="card__link">
+                <button class="btn-reset btn card__btn" data-graph-path="">
+                  Смотрерть в Instagram
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card">
+              <h3 class="card__title">
+                Ароматизаторы
+              </h3>
+
+              <picture>
+                <source srcset="img/aroma/aroma.avif" type="image/avif">
+                <source srcset="img/aroma/aroma.webp" type="image/webp">
+                <img loading="lazy" src="img/aroma/aroma.jpg" class="card__img" width="248" height="240" alt="Ароматизаторы">
+              </picture>
+
+              <a href="https://www.instagram.com/_novella_soap/"  target="_blank"class="card__link">
+                <button class="btn-reset btn card__btn" data-graph-path="">
+                  Смотрерть в Instagram
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <picture>
+        <source srcset="img/arrow-left.avif" type="image/avif">
+        <source srcset="img/arrow-left.webp" type="image/webp">
+        <img loading="lazy" src="img/arrow-left.png" class="products__img products__img-prew" width="21" height="42"
+          alt="Кнопка влево">
+      </picture>
+
+      <picture>
+        <source srcset="img/arrow-right.avif" type="image/avif">
+        <source srcset="img/arrow-right.webp" type="image/webp">
+        <img loading="lazy" src="img/arrow-right.png" class="products__img products__img-next" width="21" height="42"
+          alt="Кнопка вправо">
+      </picture>
+
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+  </div>
+</section>
+      <section class="request">
+  <div class="container">
+    <div class="request__title">
+      Получите скидку 10% на любой товар при заказе на нашем сайте!
+    </div>
+
+    <form method="POST" action="mail.php" enctype="multipart/form-data" class="form">
+      <input type="hidden" name="admin_email[]" value="novellasoap12@gmail.com">
+      <input type="hidden" name="form_subject" value="Тема письма">
+      <label class="form__label">
+        <input type="text" name="Имя" class="input-reset input-name form__input" placeholder="Имя">
+        <input type="tel" name="Телефон" class="input-reset input-tel form__input" placeholder="Телефон">
+        <input type="email" name="Почта" class="input-reset form__input" placeholder="E-mail">
+      </label>
+      <button type="submit" class="btn-reset btn form__btn">Отправить</button>
+    </form>
+  </div>
+</section>
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__socials">
+        <h6 class="footer__title">
+          Присоединяйтесь
+        </h6>
+        <div class="footer__links">
+          <a href="http://instagram.com/_novella_soap" class="footer__link" target="_blank">
+            <picture>
+              <source srcset="img/socials/instagram.avif" type="image/avif">
+              <source srcset="img/socials/instagram.webp" type="image/webp">
+              <img loading="lazy" src="img/socials/instagram.png" class="footer__icon" width="40" height="40" alt="Инстаграм">
+            </picture>
+          </a>
+          <a href="https://t.me/novellasoap" class="footer__link" target="_blank">
+            <picture>
+              <source srcset="img/socials/telegram.avif" type="image/avif">
+              <source srcset="img/socials/telegram.webp" type="image/webp">
+              <img loading="lazy" src="img/socials/telegram.png" class="footer__icon" width="40" height="40" alt="Телеграм">
+            </picture>
+          </a>
+          <a href="https://wa.me/79138048247" class="footer__link" target="_blank">
+            <picture>
+              <source srcset="img/socials/whatsapp.avif" type="image/avif">
+              <source srcset="img/socials/whatsapp.webp" type="image/webp">
+              <img loading="lazy" src="img/socials/whatsapp.png" class="footer__icon" width="40" height="40" alt="Вотсап">
+            </picture>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__infos">
+        <p class="footer__info">Novella soap</p>
+        <p class="footer__info">Copyright ©</p>
+        <p class="footer__info footer__info-date"></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
